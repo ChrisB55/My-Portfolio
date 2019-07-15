@@ -70,6 +70,8 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+
 p {
   font-weight: 300;
 }
@@ -1258,13 +1260,12 @@ a.banner-btn:focus {
 }
 .project-items {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   overflow: hidden;
   
-}
-.project-items img {
   
 }
+
 .project-items .ovrly {
   position: absolute;
   top: 0;
@@ -1366,6 +1367,14 @@ div#testimonial-area .item .item-image {
   height: 106px;
   border-radius: 50%;
   margin: 0 auto;
+}
+
+item-image img:hover {
+  width: 106px !important;
+  height: 106px;
+  border-radius: 50%;
+  margin: 0 auto;
+  
 }
 #testimonials .t-content-area p {
   margin: 24px 0;
