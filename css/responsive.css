@@ -590,6 +590,10 @@
   .circle-404:before {
     width: 50px;
   }
+
+  .project-items {
+    margin: 50px;
+  }
 }
 
 @media (max-width: 470px) {
